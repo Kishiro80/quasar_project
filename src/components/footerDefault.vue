@@ -4,19 +4,14 @@
       <div class="text-h5 text-bold q-pl-md q-pr-md">Find Us:</div>
       <div class="text-h6 text-bold q-pl-md q-pr-xl">HQ Address</div>
       <div class="text-p q-pl-md q-pr-md">
-        RK 27-B Jalan Villa 3 Taman Anggerik Villa 43500 Semenyih Selangor Darul
-        Ehsan
+        RK 27-B Jalan Villa 3 Taman Anggerik Villa 43500 Semenyih Selangor Darul Ehsan
       </div>
-      <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">
-        Branch Address
-      </div>
+      <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">Branch Address</div>
       <div class="text-p q-pl-md q-pr-md">
-        Bangunan Center of Excellence Kolej Kemahiran Tinggi MARA Ledang Serom 4
-        & 5, jalan Sg. Mati Bukit Gambir 84410 Ledang, Johor
+        Bangunan Center of Excellence Kolej Kemahiran Tinggi MARA Ledang Serom 4 & 5,
+        jalan Sg. Mati Bukit Gambir 84410 Ledang, Johor
       </div>
-      <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">
-        Telephone Number
-      </div>
+      <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">Telephone Number</div>
       <div class="text-p q-pl-md q-pr-md">603 - 8725 5811</div>
       <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">Email</div>
       <div class="text-p q-pl-md q-pr-md q-pb-md">Info@mycesgroup.com</div>

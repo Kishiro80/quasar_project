@@ -1,15 +1,13 @@
 <template>
   <q-page class="bg-deep-purple-1">
     <!-- 3rd SECTION-->
+    <footerDefault></footerDefault>
     <div class="row flex-center">
       <div class="text-h4 text-bold q-pl-md q-pr-md q-pt-md text-primary">
         Energy Audit
       </div>
     </div>
-    <hr
-      class="color-primary bg-primary"
-      style="height: 1.5px; max-width: 150px"
-    />
+    <hr class="color-primary bg-primary" style="height: 1.5px; max-width: 150px" />
     <div class="row">
       <div class="col-12 col-md">
         <!-- responsive column col-12 col-md -->
@@ -32,62 +30,44 @@
                   height="350px"
                   class="text-white rounded-borders"
                 >
-                  <q-carousel-slide
-                    name="slide1"
-                    class="column no-wrap flex-center"
-                  >
+                  <q-carousel-slide name="slide1" class="column no-wrap flex-center">
                     <q-img
                       src="https://www.mycesgroup.com/wp-content/uploads/2018/10/h.jasin_.jpg"
                       width="450px"
                       height="400px"
                     />
                   </q-carousel-slide>
-                  <q-carousel-slide
-                    name="slide2"
-                    class="column no-wrap flex-center"
-                  >
+                  <q-carousel-slide name="slide2" class="column no-wrap flex-center">
                     <q-img
                       src="https://www.mycesgroup.com/wp-content/uploads/2018/10/kypj.jpg"
                       width="450px"
                       height="400px"
                     />
                   </q-carousel-slide>
-                  <q-carousel-slide
-                    name="layers"
-                    class="column no-wrap flex-center"
-                  >
+                  <q-carousel-slide name="layers" class="column no-wrap flex-center">
                     <q-img
                       src="https://www.mycesgroup.com/wp-content/uploads/2018/01/sime-darby-1.jpg"
                       width="450px"
                       height="400px"
                     />
                   </q-carousel-slide>
-                  <q-carousel-slide
-                    name="map"
-                    class="column no-wrap flex-center"
-                  >
-                    <q-img
-                      src="../assets/banana.png"
-                      width="450px"
-                      height="400px"
-                    />
+                  <q-carousel-slide name="map" class="column no-wrap flex-center">
+                    <q-img src="../assets/banana.png" width="450px" height="400px" />
                   </q-carousel-slide>
                 </q-carousel>
               </div>
               <div class="col-6 col-md-6">
                 <div class="text-subtitle1 q-pa-md q-mb-xl text-black">
-                  MyCES Sdn Bhd undertake commercial energy audits on all types
-                  of companies, ranging from small businesses to international
-                  companies looking to minimise energy waste and spot new
-                  opportunities for business energy improvement. By following a
-                  detailed process of energy cost and efficiency analysis,
-                  system reviews, in-depth feasibility studies and professional
-                  project management we can provide our clients with bespoke
-                  reports highlighting saving on energy, money and carbon
-                  emissions. Our energy experts offer a variety of green energy
-                  assessments. We would be delighted to discuss these with you
-                  further when you book your commercial and industry energy
-                  audit with us today.
+                  MyCES Sdn Bhd undertake commercial energy audits on all types of
+                  companies, ranging from small businesses to international companies
+                  looking to minimise energy waste and spot new opportunities for business
+                  energy improvement. By following a detailed process of energy cost and
+                  efficiency analysis, system reviews, in-depth feasibility studies and
+                  professional project management we can provide our clients with bespoke
+                  reports highlighting saving on energy, money and carbon emissions. Our
+                  energy experts offer a variety of green energy assessments. We would be
+                  delighted to discuss these with you further when you book your
+                  commercial and industry energy audit with us today.
                 </div>
               </div>
             </div>
@@ -98,11 +78,7 @@
 
     <!-- return top btn-->
     <Transition name="scroll-top">
-      <q-page-sticky
-        v-show="showScrollTop"
-        position="bottom-right"
-        :offset="[12, 15]"
-      >
+      <q-page-sticky v-show="showScrollTop" position="bottom-right" :offset="[12, 15]">
         <q-btn
           round
           fab
@@ -121,19 +97,14 @@
         <div class="text-h5 text-bold q-pl-md q-pr-md">Find Us:</div>
         <div class="text-h6 text-bold q-pl-md q-pr-xl">HQ Address</div>
         <div class="text-p q-pl-md q-pr-md">
-          RK 27-B Jalan Villa 3 Taman Anggerik Villa 43500 Semenyih Selangor
-          Darul Ehsan
+          RK 27-B Jalan Villa 3 Taman Anggerik Villa 43500 Semenyih Selangor Darul Ehsan
         </div>
-        <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">
-          Branch Address
-        </div>
+        <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">Branch Address</div>
         <div class="text-p q-pl-md q-pr-md">
-          Bangunan Center of Excellence Kolej Kemahiran Tinggi MARA Ledang Serom
-          4 & 5, jalan Sg. Mati Bukit Gambir 84410 Ledang, Johor
+          Bangunan Center of Excellence Kolej Kemahiran Tinggi MARA Ledang Serom 4 & 5,
+          jalan Sg. Mati Bukit Gambir 84410 Ledang, Johor
         </div>
-        <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">
-          Telephone Number
-        </div>
+        <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">Telephone Number</div>
         <div class="text-p q-pl-md q-pr-md">603 - 8725 5811</div>
         <div class="text-h6 text-bold q-pl-md q-pr-xl q-pt-md">Email</div>
         <div class="text-p q-pl-md q-pr-md q-pb-md">Info@mycesgroup.com</div>
@@ -169,9 +140,6 @@
         </div>
       </div>
     </div>
-    <template>
-      <footerDefault></footerDefault>
-    </template>
   </q-page>
 </template>
 
@@ -262,9 +230,7 @@ export default {
       onReset,
     };
   },
-  components: {
-    footerDefault,
-  },
+  components: { footerDefault },
 };
 </script>
 

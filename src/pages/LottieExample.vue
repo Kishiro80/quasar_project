@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, ref } from "vue";
 import { LottieAnimation } from "lottie-web-vue";
-import WatermelonJSON from "../assets/animations/watermelon.json";
+import WatermelonJSON from "./assets/watermelon.json";
 
 let anim = ref();
 
